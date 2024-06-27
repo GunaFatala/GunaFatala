@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.hero .card-title {
+    margin-top: 150px;
+    font-size: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 700;
+    color: #ffc107;
+}
+
+.menu {
+    background-color: #f6f6f6;
+}
+
+.menu .section-title {
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu .section-paragraph {
+    color: #131313;
+}
+
+.menu .card {
+    background-color: #343a40;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.menu .card:hover {
+    transform: scale(1.05);
+}
+
+.menu .card img {
+    border: 2px solid #fff;
+    border-radius: 0.25rem;
+    height: 100px; /* Tentukan tinggi gambar yang tetap */
+    width: 100%; /* Pastikan gambar mengambil lebar penuh dari kontainer */
+    object-fit: cover; /* Memastikan gambar menyesuaikan dengan kontainer tanpa merusak proporsi */
+}
+
+footer {
+    background-color: #131313;
+}
+
+.social-link img {
+    width: 30px; /* Sesuaikan ukuran logo sosial media */
+    margin-left: 10px; /* Jarak antara logo sosial media */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add your custom styles here if needed */
+.social-link {
+    margin: 0 5px; /* Adjust spacing between social icons */
+  }
+  
+
+.social-link img:hover {
+    transform: scale(1.1); /* Efek scaling saat hover */
+}
+
+.profile-picture {
+    width: 80px; /* Ukuran gambar profil */
+    height: 80px;
+    border: 2px solid white; /* Border putih berukuran 2px */
+    overflow: hidden; /* Memastikan gambar tidak melebihi batas */
+}
